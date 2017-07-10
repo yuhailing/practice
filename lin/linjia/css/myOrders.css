@@ -1,0 +1,143 @@
+.tit a{
+	width:36%;
+}
+.tit .left{
+	margin-left:10%;
+}
+.tit .right{
+	margin-right:10%;
+}
+.bar{
+	position:fixed;
+	top:45px;
+	height:40px;
+	width:100%;
+	background:#fff;
+	line-height:40px;
+	font-size:1.4rem;
+	border-bottom: 1px solid #dedede;
+}
+.bar a{
+	width:20%;	
+	float:left;
+	margin-left:10%;
+	text-align: center;
+}
+.bar .active{
+	color:#EF8200;
+	height:38px;
+	border-bottom:2px solid #ef8200;
+}
+/*我的订单*/
+.cont{
+	top:86px;
+}
+.myList_list{
+	height:100%;
+}
+.myList_lists{
+	height:auto;
+	padding-bottom:66px;
+}
+.myList-pos{
+	height:16px;
+	margin-top:8px;
+}
+.myList-sec{
+	border-top:1px solid #dedede;
+	border-bottom:1px solid #dedede;
+	margin-bottom:7px;
+	background:#fff;
+}
+.myList-sec .title{
+	margin: 0 auto;
+    background: #fff;
+    border-bottom: 1px solid #dedede;
+    height: 27px;
+    line-height: 27px;
+    width: 96%;
+    padding: 0;
+    padding-top:8px;
+    padding-bottom: 2px;
+}
+.myList-position{
+	display: block;
+    height: 100%;
+    line-height:32px;
+    margin-left: 2%;
+    font-size: 1.4rem;
+}
+.myList-money{
+	font-size: 1.5rem;
+    line-height:27px;
+    margin-right: 2%;
+    color:#EF8200;
+}
+.myList-lists{
+	width:94%;
+	padding:0 3%;
+	height:auto;
+	background:#fff;
+}
+.myList-items{
+	width:100%;
+	height:auto;
+	padding:5px 0;
+}
+.myList-items p{	
+	height:30px;
+	line-height: 30px;
+	font-size:1.3rem;
+	color:#323232;
+}
+.myList-items p span:last-child img{
+	float:left;
+	height:12px;
+	margin-top:10px;
+}
+.myList-items p span:last-child b{
+	float:right;
+	font-size:1.5rem;
+	font-weight: 200;
+}
+.myList-details{
+	height: 30px;
+    line-height: 29px;
+    box-sizing: border-box;
+    border-top: 1px solid #dedede;
+    font-size: 1.3rem;
+    color: #969696;
+}
+.myList-details .myList-datails-money{
+	font-size:1.2rem;
+}
+.myList-datails-money .font-bg b{
+	margin-left:0.2rem;
+}
+.myList-click{
+	width:100%;
+	height:40px;
+	position:relative;
+}
+.myList-btn{
+	display:block;
+	padding:0 14px;
+	height:30px;
+	line-height:30px;
+	background:#ef8200;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 1.6rem;
+	margin-top:5px;
+	position:absolute;
+	right:1%;
+	color:#f7f7f7;
+	float:right;
+}
+.myList_lists .posit{
+	width:200px;
+	height:80px;
+	line-height:80px;
+	color:#ff3333;
+	font-size:1.5rem;
+}

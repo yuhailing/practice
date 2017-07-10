@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang='zh-cn'>
+<head>
+    <meta charset='utf-8'>
+     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+     <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+     <script type="text/javascript" src='js/swiper.min.js'></script>
+	<title></title>
+</head>
+<body>
+    
+
+       <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            	<div class="chui">
+            	    <img src="img/wei.png" alt="">
+            	    <span>微信二维码</span>
+            	</div>
+            </div>
+            <div class="swiper-slide">
+            	<div class="chui">
+            	    <img src="img/wei.png" alt="">
+            	    <span>微信二维码</span>
+            	</div>
+            </div>
+            <div class="swiper-slide">
+            	
+            	    <img src="img/app1.jpg" alt="" style='height:80%;width:auto' class="chui">
+            	
+            </div>
+            <div class="swiper-slide">
+            	
+            	    <img src="img/app2.jpg" alt="" style='height:80%;width:auto' class="chui">
+            	
+            </div>
+            <div class="swiper-slide">
+            	<div class="chui">
+            		<span>
+            			<marquee scrollamount="2" direction="up" style='width:90%;'>
+            				红演圈不是一颗孤独星球，我们时刻准备迎接你的到来。</br>
+来此之前，我们希望能告诉你：</br>
+红演圈不是身处CBD的摩天大楼，没有气派的前台大厅彰显尊贵身份；我们只是背靠大学校园，被浓郁的学术氛围和蓬勃的年轻张力包裹着。
+红演圈不是身经百战的智叟，没有丰厚的沧桑阅历与你分享；我们只是一个由一群有梦想、有拼劲、有技术、有idea的小伙伴儿组成的奋斗团队。</br>
+红演圈不是演艺圈的颠覆者，没有翻天覆地的作为满足英雄梦；我们只是每天服务于数十万艺人和机构，承载每一个普通艺人的机遇与梦想。
+我们只是这样的红演圈，如果你有兴趣就不要大意地加入我们吧！</br>
+加入红演圈，我们一起造梦；</br>
+加入红演圈，我们一起圆梦！</br>
+            			</marquee>
+            		</span>
+            	</div>
+            </div>
+            
+        </div>
+    </div>
+
+     
+
+    <style>
+    	*{
+    		padding:0;
+    		margin:0;
+    		list-style: none;
+    		font-family: '微软雅黑';
+    	}
+    	html,body{
+    		width:100%;
+    		height: 100%;
+    		overflow: hidden;
+    	}
+    	.swiper-container{
+    		width:100%;
+    		height: 100%;
+    		background: none;
+    	}
+    	.swiper-slide{
+    		position: relative;
+    		width:100%;
+    		height:100%;
+    	}
+           .chui {
+           	width:90%;
+           	height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+       -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); 
+    }
+    .chui img{
+    	width:100%;
+    }
+    .chui span{
+    	width:100%;
+    	display: block;
+    	font-size: 20px;
+    	color:#3c3c3c;
+    	text-align: center;
+    	font-weight: bold;
+    }
+    </style>
+
+     <script>
+          var swiper = new Swiper('.swiper-container',{
+          	loop:true,
+          	autoplayDisableOnInteraction : false,
+          	speed:300,
+          	autoplay : 3000,
+          });
+     </script>
+</body>
+</html>

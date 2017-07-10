@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<script>
+		window.onload = function () {
+			var oCar = document.getElementsByClassName('bot-a-fou');
+			var oCont = document.getElementsByClassName('cont');
+			var oShop = document.getElementsByClassName('shopCar');
+			console.log(oCont);
+			oCar[0].onclick = function() {
+				oShop[0].style.display = 'block';
+			}
+			oCont[0].onclick = function() {
+				oShop[0].style.display = 'none';
+			}
+		}
+		</script>
+	<head>
+		<meta charset="utf-8" />		
+		<meta http-equiv="content-language" content="zh-CN" />		
+		<meta http-equiv="Pragma" Content="No-cache">
+		<meta http-equiv="cache-control" content="no-cache">  
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<meta name="HandheldFriendly" content="true">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/> 
+		<meta name="revisit-after" content="1 days">
+		<meta name="format-detection" content="telphone=no, email=no"/>	
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-orientation" content="portrait">
+		<title>我&nbsp;的</title>
+		<link rel="stylesheet" href="../iconfont/iconfont.min.css" />
+		<link rel="stylesheet" href="../css/common.min.css" />
+		<link rel="stylesheet" href="../css/bot.min.css" />
+		<link rel="stylesheet" href="../css/shopCar.min.css" />
+		<link rel="stylesheet" href="../css/mine.min.css" />
+	</head>
+	<body>		
+		<header class="top">
+			<span class="tit">我&nbsp;的</span>
+		</header>
+		<div class="cont">
+			<a class="order heights" href="myOrders.html">
+				<img class="left" src="../img/mine/myList.jpg" alt="" />
+				<span class="color-black">我的订单</span>
+				<span class="right iconfont icon-more"></span>
+				<span class="right">查看全部订单</span>
+			</a>
+		<div class="heights">
+			<img class="left" src="../img/mine/wallet.jpg" alt="" />
+			<span class="color-black">我的钱包</span>
+		</div>
+		<div class="infor">			
+			<article class="mine_barcode">
+				<a>
+					<img src="../img/mine/fukuan.jpg" alt="" />
+					<span class="color-brown">会员卡</span>
+				</a>
+			</article>
+			<article class="infor-reMoney">
+				<a href="myMoney.html"> 
+					<span class="infor-art-top infor-restore">￥<b></b></span>
+					<span class="color-black">余额</span>
+				</a>
+			</article>
+			<article class="infor-coupons">
+				<a href="myCoupons.html"> 
+					<span class="infor-art-top infor-card">0</span>
+					<span class="color-black">优惠券</span>
+				</a>
+			</article>
+			<article class="infor-scores">
+				<a href="myScores.html"> 
+					<span class="infor-art-top infor-score">0</span>
+					<span class="color-black">积分</span>
+				</a>
+			</article>
+		</div>
+		<div class="details">
+			<article class="control">
+				<a href="myInfor.html">
+					<img src="../img/mine/myInfor.jpg" alt="" />
+					<span class="color-black">个人中心</span>	
+				</a>	
+			</article>
+			<article class="myLoc">
+				<a href="myLocation.html">
+					<img src="../img/mine/else-address.jpg" alt="" />
+					<span class="color-black">地址管理</span>
+				</a>
+			</article>
+			<article class="myFocus">
+				<a href="focus.html">
+					<img src="../img/mine/else-goodson.jpg" alt="" />
+					<span class="color-black">商品关注</span>
+				</a>
+			</article>			
+			<article class="myShops">
+				<a href="shopLists.html">
+					<img src="../img/mine/else-storelist.jpg" alt="" />
+					<span class="color-black">店铺列表</span>
+				</a>
+			</article>
+			<article class="myCust">
+				<a href="custActivities.html">
+					<img src="../img/mine/else-linjiacust.jpg" alt="" />
+					<span class="color-black">会员活动</span>
+				</a>
+			</article>
+			<article class="myService">
+				<a href="linJiaService.html">
+					<img src="../img/mine/else-linjiaserve.jpg" alt="" />
+					<span class="color-black">邻家服务</span>
+				</a>	
+			</article>
+			<article>
+				<a href="myReset.html">
+					<img src="../img/mine/set.jpg" alt="" />
+					<span class="color-black">设&nbsp;置</span>	
+				</a>	
+			</article>
+		</div>
+	</div>
+		<!--底部-->
+		<div class="bot">
+            	<a class="bot-a-one" href="../index.html">
+            		<img src="../img/icon/home_1.png" alt="首页" />
+            		<span>首页</span>
+            	</a>
+            	<a class="bot-a-two" href="../index1.html">
+            		<img src="../img/icon/list_1.png" alt="分类" />
+            		<span>分类</span>
+            	</a>
+            	<a class="bot-a-fou">
+            		<img src="../img/icon/car_1.png" alt="购物车" />
+            		<div id="tip">            			
+            		</div>
+            		<span>购物车</span>
+            	</a>            	
+            	<a class="bot-a-fiv" href="mine.html">            		
+            		<img src="../img/icon/mine_2.png" alt="我的" />
+            		<span class="col_br">我的</span>
+            	</a>
+        	</div>
+		<!--购物车-->
+		<!-- <div class="car_conts zIn hid">			
+		</div>
+		<div class="car_cont zIn hid">			
+		</div> -->
+		<div class="shopCar">
+			<header class="car-top">
+				<span class="car_back"><span class="iconfont icon-daosanjiao"></span>购物车</span>
+				<span class="right clear-car"><span class="iconfont icon-delete"></span><span>清空购物车</span></span>
+			</header>			
+			<section class="car-inr" id="car-wrapper">				
+				<div id="scroller">
+					<div class="ex_goods">
+						<span class="left"><img class="ex_goods_lab" src="../img/icon/exchange.jpg" alt="" /></span>
+						<span class="left ex_goods_name">分骄傲少说废话</span>
+						<span class="right ex_goods_price">￥152.23</span>
+					</div>
+					<div class="ex_goods_link">
+						<span class="left ex_goods_btn">商品换购</span>
+						<span class="left color-brown">满99元另加11元，即可换购热销商品</span>
+						<span class="right font-bg iconfont icon-more"></span>
+					</div>
+					<div class="car_list">
+						<div class="car_goods">
+							<div class="car-item">
+								<article class="left">口福莱牛奶瓜子-小青蛙（一小时内发货）</article>
+								<aside class="right">
+									<span class="right car-item-add car-item-btn"><img src="../img/icon/addTo.png" alt="" /></span>
+									<span class="right car-item-num">1</span>
+									<span class="right car-item-min car-item-btn"><img src="../img/icon/minTo.png" alt="" /></span>
+									<span class="right car-item-prc">1.90</span>
+									<span class="right car_it">￥</span>
+								</aside>
+							</div>	
+							<div class="emp"></div>
+						</div>					
+					</div>
+				</div>	
+			</section>
+			<footer class="car-bot">
+				<div class="left car-bot_left">
+					<div class="daily-bot-messege left">
+					<div id="tp"></div>
+					<img class="daily-bot-btn"  src="../img/activities/daily-gouwuche.png" alt="" />
+					<p class="daily-bot-price">￥11.90</p>
+					<p class="daily-bot-det">空空如也~去选购吧</p>
+					</div>
+				</div>
+				<div class="left car-bot-btn">去结算</div>
+			</footer>
+		</div>				
+		<!--条形码-->
+		<div class="zIn codes_alert hid">			 		
+		</div>
+		<div class="zIn code_alert hid">			
+		</div>		
+		<div class="code posit hid">
+			<div class="code_line hid"></div>
+			<div id="mcTarget" class="barcodeImg"></div>
+			<span class="close_btn"><img src="../img/icon/close_btn1.png" alt="" /></span>			 	
+		</div>
+	</body>
+	<!-- <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="//cdn.bootcss.com/touchjs/0.2.14/touch.min.js"></script>
+	<script src="../dep/js/isc.js"></script>
+	<script type="text/javascript" src="../dep/js/jquery-barcode.js"></script>
+	<script src="../dep/js/md5.min.js"></script>
+	<script src="../js/isc.js"></script>
+	<script src="../js/common.min.js"></script>
+	<script src="../js/shopCar.min.js"></script>
+	<script src="../js/mine.min.js"></script> -->
+</html>

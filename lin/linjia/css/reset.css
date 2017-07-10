@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS 默认样式重置*/
+body,ul,li,p,h1,h2,h3,h4,h5,h6,img,br,hr,table,tr,td,dl,dt,dd,form {margin:0;padding:0;}
+body {color:#000;font-family:"宋体";}
+ul,li{list-style:none;}
+img {border:none;}
+a{text-decoration:none;color:#000;}
+input,textarea,button{border:0px;outline:none;}
+em{font-style:normal;}
